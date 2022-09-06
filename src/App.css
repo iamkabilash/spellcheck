@@ -3,9 +3,9 @@ body{
 }
 textarea{
   height: 300px;
-  width: 80vw;
+  width: 90vw;
   overflow-wrap: break-word;
 }
-.under{
+span{
   color: red;
 }

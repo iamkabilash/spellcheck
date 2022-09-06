@@ -62,8 +62,8 @@ const App = () => {
     <div>
       <h2>Spell check</h2>
       <div>
-          {/* <textarea value={text.map((item)=><p className='under'>{item.name}</p>)} placeholder="Enter text" cols="30" rows="10" 
-          onChange={getUserInput}></textarea> */}
+        {/* <textarea value={text.map((item)=><p className='under'>{item.name}</p>)} placeholder="Enter text" cols="30" rows="10" 
+        onChange={getUserInput}></textarea> */}
         <textarea value={userInput} placeholder="Enter text" cols="30" rows="10" 
         onChange={getUserInput}></textarea>
         <button type="reset" onClick={resetInput}>Reset</button>
